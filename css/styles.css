@@ -187,13 +187,20 @@ img {
   flex-wrap: wrap;
 }
 
-.feature-list .item {
-  max-width: 264px;
+.feature-item {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-right: var(--card-set-gap);
 }
-.feature-list .item:last-child {
+.feature-item:last-child {
   margin-right: 0;
+}
+.f-description > .items-header {
+  margin-bottom: 8px;
+}
+.feature-text {
+}
+.f-description {
+  width: 264px;
 }
 /* PRODUCTS */
 
